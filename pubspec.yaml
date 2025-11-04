@@ -1,0 +1,32 @@
+name: tugas1
+description: Aplikasi Flutter bertema Generasi Sekarang (Gen Z Profile App)
+publish_to: 'none' # Hapus baris ini jika ingin dipublikasikan ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paket ikon iOS-style
+  cupertino_icons: ^1.0.8
+
+  # Paket untuk membuka tautan eksternal (IG, WA, YouTube)
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter standar Flutter untuk menjaga kualitas kode
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 📸 Daftar aset yang digunakan
+  assets:
+    - assets/profile.jpg
